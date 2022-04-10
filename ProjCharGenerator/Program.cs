@@ -10,8 +10,8 @@ namespace ProjCharGenerator
     {
     private string syms = "абвгдеёжзийклмнопрстуфхцчшщьыъэюя";
     private char[] data;
-    private int size;
     private int index = -1;
+    private int size;
     private string[] wordnumber;
     private Random random = new Random();
     int[,] weights = new int[,] {{ 2, 12, 35, 8, 14, 7, 0, 6, 15, 7, 7, 19, 27, 19, 45, 5, 11, 26, 31, 27, 3, 1, 10, 6, 7, 10, 1, 0, 0, 0, 2, 6, 9 },
